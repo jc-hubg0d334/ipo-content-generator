@@ -15,10 +15,7 @@ SERPAPI_API_KEY = os.getenv("SERPAPI_API_KEY", "").strip()
 PERPLEXITY_API_KEY = os.getenv("PERPLEXITY_API_KEY", "").strip()
 PERPLEXITY_MODEL = os.getenv("PERPLEXITY_MODEL", "sonar-pro").strip()
 
-print("[DEBUG] ENV_PATH =", ENV_PATH)
-print("[DEBUG] GPTSAPI_BASE_URL =", GPTSAPI_BASE_URL)
-print("[DEBUG] GPTSAPI_API_KEY exists =", bool(GPTSAPI_API_KEY))
-print("[DEBUG] GPTSAPI_MODEL =", GPTSAPI_MODEL)
+
 
 def safe_json_loads(raw: str):
     if isinstance(raw, dict):
