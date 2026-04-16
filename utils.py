@@ -3,14 +3,8 @@ import os
 import re
 import requests
 from dotenv import load_dotenv
-from pathlib import Path
 
-
-# 强制从当前项目目录读取 .env
-BASE_DIR = Path(__file__).resolve().parent
-ENV_PATH = BASE_DIR / ".env"
-
-load_dotenv(dotenv_path=ENV_PATH, override=True)
+load_dotenv()
 
 GPTSAPI_BASE_URL = os.getenv("GPTSAPI_BASE_URL", "").strip().rstrip("/")
 GPTSAPI_API_KEY = os.getenv("GPTSAPI_API_KEY", "").strip()
