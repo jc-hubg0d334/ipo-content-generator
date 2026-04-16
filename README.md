@@ -4,6 +4,12 @@
 
 ---
 
+## 🎥 Demo
+
+👉 https://drive.google.com/file/d/1Uw7_uQTyKak05eT2dWOtrl7hQod-10NG/view?usp=sharing
+
+---
+
 ## 🚀 Demo（在线体验）
 
 👉 https://你的streamlit网址
