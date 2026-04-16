@@ -1,0 +1,39 @@
+{
+  "overall_tone": "chatty",
+  "title_patterns": [],
+  "opening_patterns": [
+    "先点热度",
+    "先抛冲突",
+    "先给判断",
+    "先说数据再说观点"
+  ],
+  "common_terms": [],
+  "top_words": [],
+  "sentence_length": {
+    "avg_chars_per_sentence": 0,
+    "dominant_length": "medium"
+  },
+  "emotion_level": "medium",
+  "judgment_style": "有判断但不绝对，偏克制",
+  "trading_angle_focus": [
+    "热度",
+    "资金",
+    "孖展",
+    "暗盘",
+    "定价",
+    "招股期",
+    "认购倍数",
+    "情绪"
+  ],
+  "forbidden_phrases": [
+    "封神",
+    "炸裂",
+    "史诗级",
+    "杀疯了",
+    "定格"
+  ],
+  "platform_fit": "小红书港股打新内容",
+  "tone_signals": {},
+  "length_distribution": {},
+  "sample_count": 566
+}
